@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.lander-pg {
+  min-height: 100vh;
+  background: url(https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3584&q=80);
+  background-size: cover;
+  opacity: 100;
+
+  z-index: 2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  padding: 0rem 5rem;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-left: 6rem;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+.header h1 {
+  font-size: xx-large;
+  color: #a5552af1;
+  border: 1px solid blanchedalmond;
+  padding: 15px;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.header h1:hover {
+  transition: 1s;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.slogan {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+
+.slogan h2 {
+  color: blanchedalmond;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.slogan p {
+  color: cornsilk;
+}
+
+.slogan a {
+  color: brown;
+  text-decoration: none;
+  margin-top: 3rem;
+  border: 2px solid bisque;
+  background: none;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+  transition: opacity 300ms linear;
+  text-align: center;
+  transition: 1s;
+}
+.slogan a:hover {
+  background-color: bisque;
+  transition: 1s;
+  color: brown;
+}
+
+.header ul :hover {
+  border: 1px solid bisque;
+  background-color: bisque;
+  color: brown;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.btm {
+  color: aliceblue;
+  list-style: none;
+  bottom: 0px;
+}
