@@ -7,6 +7,10 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.topbar {
+  position: sticky;
+  top: 0;
+}
 
 .lander-pg {
   min-height: 100vh;
@@ -104,4 +108,137 @@ body {
   color: aliceblue;
   list-style: none;
   bottom: 0px;
+}
+.ourtaste {
+  text-align: center;
+  color: bisque;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.cardss {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 1s;
+}
+.cardss :hover {
+  opacity: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.car1 {
+  margin-top: 50px;
+
+  border: 1px solid bisque;
+  width: 300px;
+  height: 400px;
+  background-color: bisque;
+  opacity: 10;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.card1 h2 {
+  color: brown;
+  text-align: center;
+}
+.img1 {
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.earth {
+  text-align: center;
+  margin-top: 1px;
+  padding: 10px;
+  color: chocolate;
+}
+
+.car2 {
+  margin-top: 50px;
+  border: 1px solid bisque;
+  width: 300px;
+  height: 400px;
+  background-color: bisque;
+  opacity: 10;
+
+  border-radius: 30px;
+}
+.nutty {
+  text-align: center;
+  padding: 10px;
+  color: chocolate;
+}
+.card2 h2 {
+  color: brown;
+  text-align: center;
+  align-items: center;
+}
+.img2 {
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.carr3 {
+  margin-top: 50px;
+  border: 1px solid bisque;
+  width: 300px;
+  height: 400px;
+  background-color: bisque;
+  opacity: 10;
+
+  border-radius: 30px;
+}
+.cardd3 h2 {
+  color: brown;
+  text-align: center;
+}
+.imgg3 {
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.chocoo {
+  text-align: center;
+  margin-top: 1px;
+  padding: 10px;
+  color: chocolate;
+}
+
+.ca4 {
+  margin-top: 50px;
+  border: 1px solid bisque;
+  width: 300px;
+  height: 400px;
+  background-color: bisque;
+  opacity: 10;
+
+  border-radius: 30px;
+}
+.cadd4 h2 {
+  color: brown;
+  text-align: center;
+}
+.im4 {
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.Fruity {
+  text-align: center;
+  margin-top: 1px;
+  padding: 10px;
+  color: chocolate;
 }
